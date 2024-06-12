@@ -1,0 +1,89 @@
+/* Heading Style Start */
+.heading {
+  background-color: var(--primary-color);
+  padding: 50px;
+}
+
+.heading h1 {
+  color: var(--seventh-color);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+/* Heading Style End */
+
+/* About Style Start */
+.about {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Profile.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 4000px rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  padding: 100px 50px;
+}
+
+.content > div {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.content h2 {
+  color: var(--seventh-color);
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content p {
+  color: var(--fifth-color);
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 100px;
+}
+/* About Style End */
+
+/* Contact Style Start */
+.contact div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact div h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.contact div p {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.contact div a {
+    display: block;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    color: var(--seventh-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.contact div a:hover {
+    box-shadow: 0 10px 10px var(--secondary-color);
+}
+/* Contact Style End */

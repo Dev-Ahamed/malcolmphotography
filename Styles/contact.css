@@ -1,0 +1,87 @@
+/* Heading Style Start */
+.heading {
+  background-color: var(--primary-color);
+  padding: 50px;
+}
+
+.heading h1 {
+  color: var(--seventh-color);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+/* Heading Style End */
+
+.content {
+  padding: 100px 200px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+
+/* Form Style Start */
+.form-section {
+  background-color: var(--seventh-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.form-container {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-container {
+  display: flex;
+  gap: 10px;
+}
+
+.name-container > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.email-container, .phone-container, .date-container, .venue-container, .message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input, .form-container textarea {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form-container input:focus, .form-container textarea:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-container input {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--seventh-color);
+    transition: .5s;
+}
+
+.submit-container input:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px var(--primary-color);
+}
+/* Form Style End */

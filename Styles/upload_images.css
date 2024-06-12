@@ -1,0 +1,61 @@
+.heading {
+  padding: 100px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sixth-color);
+  padding: 100px 0;
+  margin-bottom: 100px;
+}
+
+.upload form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload form .fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload form .fields label,
+.upload form .fields input,
+.upload form .fields select {
+  width: 50%;
+  font-size: 20px;
+}
+
+.upload form .submit-btn {
+  align-self: flex-end;
+}
+
+.upload form .submit-btn input {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--seventh-color);
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.upload form .submit-btn input:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 10px var(--secondary-color);
+}
+
+.upload form .message {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
